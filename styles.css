@@ -1,0 +1,601 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    
+    color: whitesmoke; 
+    text-decoration: none;
+
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    padding: 5px;
+    background-color: teal;  
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    z-index: 1;
+}
+
+.nav ul li {
+  display: inline-flex;
+  position: relative;
+  justify-content: space-around;
+  left: -20px;
+  
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+  top: 0;  
+}
+
+.nav ul li a:hover {
+    color: darkgrey;
+}
+
+#hi {
+  
+  display: inline-block;
+  position: relative;
+  top: -55%;
+  margin: 0 auto
+  font-size: 32px;
+}
+
+#welcome-section subtitle {
+  
+  display: inline-block;
+  position: relative;
+  top: -55%;
+  left: 42.5%;
+  margin: 0px auto;
+  color: teal;
+  font-family: monospace;
+  font-size: 24px; 
+  word-break: keep-all;
+    
+
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 99.99%;
+  color: whitesmoke;
+  background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: relative;
+    height: 99%;
+    top: 50px;
+    left: -%;
+    z-index: 1;
+}
+
+
+/* ----------PROJECTS SECTION-----------*/
+
+
+
+
+
+#my-projects {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  margin-left: 39%;
+}
+
+hr {
+    
+    margin-top: 34px;
+    width: 325px;
+    margin-left: 38.5%;
+}
+
+.projects-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 110%;
+    background-color: #45567d;
+}
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    column-gap: 200px;
+    grid-row-gap: 200px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 15vw;
+  height: 25vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+figcaption:hover {
+        
+    text-decoration: underline;
+    color: darkgray;
+
+}
+
+.project-tile img {
+    
+    position: absolute;
+    width: 15vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.project-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+#more {
+    display: inline-block;
+    position: absolute;
+    color: whitesmoke;
+    top: 87%;
+    left: 41%;    
+}
+
+#show-all {
+    
+    display: inline-block;
+    position: relative;
+    top: 575px;
+    width: 100%;
+    text-align: center;
+}
+
+#show-all a:hover {
+    
+    color: darkgray;
+    text-decoration: underline;
+}
+
+
+
+/* ----------SOCIALS SECTION-----------*/
+
+
+
+
+#socials-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 100vh;
+    top: 200%;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#together {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 50%;
+  left: 40.5%;
+  margin: 0 150 0 150;
+  font-size: 32px;
+}
+
+#sub2 {
+  position: absolute;
+  top: 55.5%;
+  left: 34%;
+  margin: 0 150 0 150;
+  color: teal;
+  font-family: monospace;
+  font-size: 24px; 
+}
+
+.social-wide {
+    
+    display: inline-flex;
+    position: relative;
+    height: 50px;
+    top: 70%;
+    color: teal;
+    margin-left: 41.5%;
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: darkgray;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+.certs-wrapper {
+    
+    display: flex;
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    grid-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+#my-certs {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: absolute;
+  top: -35px;
+}
+
+.certs-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 15vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.certs-tile img {
+    
+    position: absolute;
+    width: 15vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.certs-tile img.resp1 {
+    
+    filter: invert(100%);
+}
+
+
+.certs-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+#bottom {
+    
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    right: 0;
+    top: 90%;
+    background-color: teal;
+}
+
+#copyright {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 92%;
+  left: 43.5%;
+  margin: 0 150 0 150;
+  font-size: 18px;
+}
+
+
+
+
+/* --------------MOBILE----------------*/
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+  #hi {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 20%;
+  margin: 0 150 0 150;
+  font-size: 32px;
+
+}
+
+#welcome-section subtitle {
+  
+  display: inline-block;
+  position: relative;
+  top: -55%;
+  left: 39%;
+  margin: 0px auto;
+  color: teal;
+  font-family: monospace;
+  font-size: 24px; 
+  word-break: keep-all;
+    
+
+}
+    
+    
+#welcome-section img {
+    display: inline-block;
+    position: absolute;
+    width: 100vw;
+    height: 95vh;
+    top: 50px;
+    left: -180px;
+    z-index: 1;
+}
+    
+    .projects-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 100vh;
+    background-color: #45567d;
+}
+    
+#my-projects {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  margin-left: 25%;;
+}
+
+hr {
+    
+    margin-top: 34px;
+    width: 325px;
+    margin-left: 23%;
+}
+    
+    .project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 55px;
+    width: 100%;
+    column-gap: 75px;
+    grid-row-gap: 200px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 35vw;
+  height: 25vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+    
+    figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+figcaption:hover {
+        
+    text-decoration: underline;
+    color: darkgray;
+
+}
+
+.project-tile img {
+    
+    position: absolute;
+    width: 35vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.project-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+    
+    #more {
+    display: inline-block;
+    position: absolute;
+    color: whitesmoke;
+    top: 95%;
+    left: 30%;    
+}
+    
+    
+#socials-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 100vh;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+    
+#together {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 50%;
+  left: 17.5%;
+  margin: 0 150 0 150;
+  font-size: 32px;
+}
+
+#sub2 {
+  position: absolute;
+  text-align: center;
+  top: 55.5%;
+  left: 9%;
+  margin: 0 150 0 150;
+  color: teal;
+  font-family: monospace;
+  font-size: 18px; 
+}
+    
+.social-wide {
+    
+    display: inline-flex;
+    position: absolute;
+    height: 50px;
+    top: 70%;
+    color: teal;
+    margin-left: 5.5%;
+}
+
+.certs-wrapper {
+    
+    display: flex;
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    grid-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+#my-certs {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: absolute;
+  top: -45px;
+}
+
+.certs-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 35vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.certs-tile img {
+    
+    position: absolute;
+    width: 35vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.certs-tile img.resp1 {
+    
+    filter: invert(100%);
+}
+
+
+.certs-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+    
+#copyright {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 92%;
+  left: 30.5%;
+  margin: 0 150 0 150;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
