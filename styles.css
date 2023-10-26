@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -104,7 +104,7 @@ a {
   display: inline-block;
   position: relative;
   top: 5px;
-  margin-left: 46%;
+  margin-left: 47%;
 }
 
 
@@ -215,7 +215,7 @@ figcaption:hover {
 #sub2 {
   position: absolute;
   top: 55.5%;
-  left: 34%;
+  left: 35%;
   margin: 0 150 0 150;
   color: teal;
   font-family: monospace;
@@ -229,7 +229,7 @@ figcaption:hover {
     height: 50px;
     top: 70%;
     color: teal;
-    margin-left: 41.5%;
+    margin-left: 45.5%;
 }
 
 .social-wide a {
@@ -316,89 +316,102 @@ figcaption:hover {
   position: absolute;
   color: whitesmoke;
   top: 96.5%;
-  left: 43.5%;
+  left: 45.5%;
   margin: 0 150 0 150;
   font-size: 18px;
 }
 
 
+/*************************************BIG Laptop**************************************************************/
+
+/*************************************BIG Laptop**************************************************************/
 
 
-/* --------------MOBILE----------------*/
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+ 
 
+#hi {
+  
+  display: inline-block;
+  position: relative;
+  top: -60%;
+  width: 30%;
+  left: -38%;
+  margin: 0 auto;
+  font-size: 1.5em;;
+  z-index: 2;
 
+}
 
-
-@media only screen and (max-width: 600px) {
+#welcome-section span {
     
-  #hi {
-  position: absolute;
-  text-align: center;
-  top: 35%;
-  left: 20%;
-  margin: 0 150 0 150;
-  font-size: 32px;
-
+    color: teal;
 }
 
 #welcome-section subtitle {
   
   display: inline-block;
   position: relative;
-  top: -55%;
-  left: 39%;
+  top: -50%;
+  left: 61.5%;
   margin: 0px auto;
-  color: teal;
-  font-family: monospace;
-  font-size: 24px; 
-  word-break: keep-all;
-    
+  color: ghostwhite;
+  font-size: 1.5em; 
+  word-break: break-all;
+  z-index: 2;
 
 }
-    
-    
+
+#welcome-section {
+  height: 100vh;
+  width: 99.99%;
+  color: whitesmoke;
+  background-image: url(media/bgdark.jpg);
+}
+
 #welcome-section img {
     display: inline-block;
-    position: absolute;
-    width: 100vw;
-    height: 95vh;
+    position: relative;
+    height: 99%;
     top: 50px;
-    left: -180px;
+    left: 27%;
     z-index: 1;
 }
-    
-    .projects-section {
-    
-    position: absolute;
-    width: 99.99%;
-    height: 100vh;
-    background-color: #45567d;
-}
-    
+
+
+/* ----------PROJECTS SECTION-----------*/
+
+
+
+
+
 #my-projects {
     
   font-family: monospace;    
   color: whitesmoke;
   display: inline-block;
-  position: absolute;
+  position: relative;
   top: 5px;
-  margin-left: 25%;;
+  margin-left: 47%;
 }
 
-hr {
+
+
+.projects-section {
     
-    margin-top: 34px;
-    width: 325px;
-    margin-left: 23%;
+    position: absolute;
+    width: 99.99%;
+    height: 110%;
+    background-image: url(media/bgblue.jpg);
 }
-    
-    .project-wrapper {
+
+.project-wrapper {
     
     display: flex;
     position: relative;
-    top: 55px;
+    top: 5%;
     width: 100%;
-    column-gap: 75px;
+    column-gap: 200px;
     grid-row-gap: 200px;
     height: auto;
     flex-wrap: wrap;
@@ -412,12 +425,12 @@ hr {
 
   position: relative;
   border: 2px solid white;
-  width: 35vw;
+  width: 17vw;
   height: 25vh;
   box-shadow: 1px 1px 4px 2px whitesmoke;
 }
-    
-    figcaption {
+
+figcaption {
     
     position: absolute;
     text-align: center;
@@ -436,7 +449,7 @@ figcaption:hover {
 .project-tile img {
     
     position: absolute;
-    width: 35vw;
+    width: 17vw;
     height: 25vh;
     transition: opacity 1s ease-in-out;
 }
@@ -445,60 +458,70 @@ figcaption:hover {
     opacity: 0;
     cursor: pointer;
 }
+
     
-    #more {
-    display: inline-block;
-    position: absolute;
-    color: whitesmoke;
-    top: 95%;
-    left: 30%;    
-}
-    
-    
+/* ----------SOCIALS SECTION-----------*/
+
+
+
 #socials-section {
     
     position: absolute;
     width: 99.99%;
     height: 100vh;
-    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    top: 200%;
+    background-image: url(media/bgdark.jpg);
 }
-    
+
 #together {
     
   position: absolute;
   color: whitesmoke;
   top: 50%;
-  left: 17.5%;
+  left: 37%;
   margin: 0 150 0 150;
   font-size: 32px;
 }
 
 #sub2 {
   position: absolute;
-  text-align: center;
   top: 55.5%;
-  left: 9%;
+  left: 28%;
   margin: 0 150 0 150;
   color: teal;
   font-family: monospace;
-  font-size: 18px; 
+  font-size: 24px; 
 }
-    
+
 .social-wide {
     
     display: inline-flex;
-    position: absolute;
+    position: relative;
     height: 50px;
     top: 70%;
     color: teal;
-    margin-left: 5.5%;
+    margin-left: 43.5%;
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: darkgray;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
 }
 
 .certs-wrapper {
     
     display: flex;
     position: absolute;
-    top: 75px;
+    top: 55px;
     width: 100%;
     grid-gap: 50px;
     height: auto;
@@ -515,14 +538,14 @@ figcaption:hover {
   color: whitesmoke;
   display: inline-block;
   position: absolute;
-  top: -45px;
+  top: -35px;
 }
 
 .certs-tile {
 
   position: relative;
   border: 2px solid white;
-  width: 35vw;
+  width: 17vw;
   height: 25vh;
   margin-left: auto;
   margin-right: auto;
@@ -532,7 +555,7 @@ figcaption:hover {
 .certs-tile img {
     
     position: absolute;
-    width: 35vw;
+    width: 17vw;
     height: 25vh;
     transition: opacity 1s ease-in-out;
 }
@@ -546,51 +569,849 @@ figcaption:hover {
 .certs-tile img.acg2:hover {
     opacity: 0;
     cursor: pointer;
-
 }
 
+
+#bottom {
     
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    right: 0;
+    top: 95%;
+    background-color: teal;
+}
+
 #copyright {
     
   position: absolute;
   color: whitesmoke;
-  top: 92%;
-  left: 30.5%;
+  top: 96.5%;
+  left: 42.5%;
   margin: 0 150 0 150;
   font-size: 18px;
 }
 
+    
+}
+    
+/*************************************Laptop**************************************************************/
+
+/*************************************Laptop**************************************************************/
+
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+ 
+
+#hi {
+  
+  display: inline-block;
+  position: relative;
+  top: -60%;
+  left: -48%;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  z-index: 2;
+
+}
+
+#welcome-section span {
+    
+    color: teal;
+}
+
+#welcome-section subtitle {
+  
+  display: inline-block;
+  position: relative;
+  top: -65.9%;
+  left: 64.5%;
+  width: 34%;
+  margin: 0px auto;
+  color: ghostwhite;
+  font-size: 1.5em; 
+  word-break: break-all;
+  z-index: 2;
+
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 99.99%;
+  color: whitesmoke;
+  background-image: url(media/bgdark.jpg);
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: relative;
+    height: 99%;
+    top: 50px;
+    left: 20%;
+    z-index: 1;
+}
+
+
+/* ----------PROJECTS SECTION-----------*/
 
 
 
+#my-projects {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin-left: 44.5%;
+}
+
+
+.projects-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 110%;
+    background-image: url(media/bgblue.jpg);
+}
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 1.5%;
+    width: 97%;
+    column-gap: 100px;
+    grid-row-gap: 100px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 19vw;
+  height: 25vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+figcaption:hover {
+        
+    text-decoration: underline;
+    color: darkgray;
+
+}
+
+.project-tile img {
+    
+    position: absolute;
+    width: 19vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.project-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+    
+/* ----------SOCIALS SECTION-----------*/
 
 
 
+#socials-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 100vh;
+    top: 200%;
+    background-image: url(media/bgdark.jpg);
+}
+
+#together {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 50%;
+  left: 37%;
+  margin: 0 150 0 150;
+  font-size: 32px;
+}
+
+#sub2 {
+  position: absolute;
+  top: 55.5%;
+  left: 25%;
+  margin: 0 150 0 150;
+  color: teal;
+  font-family: monospace;
+  font-size: 24px; 
+}
+
+.social-wide {
+    
+    display: inline-flex;
+    position: relative;
+    height: 50px;
+    top: 70%;
+    color: teal;
+    margin-left: 43.5%;
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: darkgray;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+.certs-wrapper {
+    
+    display: flex;
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    grid-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+#my-certs {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: absolute;
+  top: -35px;
+}
+
+.certs-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 19vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.certs-tile img {
+    
+    position: absolute;
+    width: 19vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.certs-tile img.resp1 {
+    
+    filter: invert(100%);
+}
+
+
+.certs-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+#bottom {
+    
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    right: 0;
+    top: 95%;
+    background-color: teal;
+}
+
+#copyright {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 96.5%;
+  left: 40.5%;
+  margin: 0 150 0 150;
+  font-size: 18px;
+}
+
+    
+}
+
+/*************************************TABLET**************************************************************/
+
+/*************************************TABLET**************************************************************/
+
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+ 
+
+#hi {
+  
+  display: inline-block;
+  position: relative;
+  top: -60%;
+  left: 5%;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  z-index: 2;
+
+}
+
+#welcome-section span {
+    
+    color: teal;
+}
+
+#welcome-section subtitle {
+  
+  display: inline-block;
+  position: relative;
+  top: -65.9%;
+  left: 62.5%;
+  width: 45%;
+  margin: 0px auto;
+  color: ghostwhite;
+  font-size: 1.5em; 
+  word-break: break-all;
+  z-index: 2;
+
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 99.99%;
+  color: whitesmoke;
+  background-image: url(media/bgdark.jpg);
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: relative;
+    height: 99%;
+    top: 50px;
+    left: 15%;
+    z-index: 1;
+}
+
+
+/* ----------PROJECTS SECTION-----------*/
 
 
 
+#my-projects {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin-left: 44.5%;
+}
+
+
+.projects-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 110%;
+    background-image: url(media/bgblue.jpg);
+}
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 1.5%;
+    width: 97%;
+    column-gap: 100px;
+    grid-row-gap: 100px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 21vw;
+  height: 25vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+figcaption:hover {
+        
+    text-decoration: underline;
+    color: darkgray;
+
+}
+
+.project-tile img {
+    
+    position: absolute;
+    width: 21vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.project-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+    
+/* ----------SOCIALS SECTION-----------*/
 
 
 
+#socials-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 100vh;
+    top: 200%;
+    background-image: url(media/bgdark.jpg);
+}
+
+#together {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 50%;
+  left: 31%;
+  margin: 0 150 0 150;
+  font-size: 32px;
+}
+
+#sub2 {
+  position: absolute;
+  top: 55.5%;
+  left: 17%;
+  margin: 0 150 0 150;
+  color: teal;
+  font-family: monospace;
+  font-size: 24px; 
+}
+
+.social-wide {
+    
+    display: inline-flex;
+    position: relative;
+    height: 50px;
+    top: 70%;
+    color: teal;
+    margin-left: 40%;
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: darkgray;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+.certs-wrapper {
+    
+    display: flex;
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    grid-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+#my-certs {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: absolute;
+  top: -35px;
+}
+
+.certs-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 21vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.certs-tile img {
+    
+    position: absolute;
+    width: 21vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.certs-tile img.resp1 {
+    
+    filter: invert(100%);
+}
+
+
+.certs-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+#bottom {
+    
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    right: 0;
+    top: 95%;
+    background-color: teal;
+}
+
+#copyright {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 96.5%;
+  left: 38.5%;
+  margin: 0 150 0 150;
+  font-size: 18px;
+}
+
+    
+}
+
+
+/*************************************PHONE**************************************************************/
+
+/*************************************PHONE**************************************************************/
+
+
+@media only screen and (max-width: 600px) and (min-width: 401px) {
+ 
+
+#hi {
+  
+  display: inline-block;
+  position: relative;
+  top: -60%;
+  left: 10%;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  z-index: 2;
+
+}
+
+#welcome-section span {
+    
+    color: teal;
+}
+
+#welcome-section subtitle {
+  
+  display: inline-block;
+  position: relative;
+  top: -68.9%;
+  left: 60%;
+  width: 37%;
+  margin: 0px auto;
+  color: ghostwhite;
+  font-size: 1.5em; 
+  word-break: break-all;
+  z-index: 2;
+
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 99.99%;
+  color: whitesmoke;
+  background-image: url(media/bgdark.jpg);
+}
+
+#welcome-section img {
+    display: inline-block;
+    position: relative;
+    height: 99%;
+    top: 50px;
+    left: 2.5%;
+    z-index: 1;
+}
+
+
+/* ----------PROJECTS SECTION-----------*/
 
 
 
+#my-projects {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin-left: 44.5%;
+}
+
+
+.projects-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 110%;
+    background-image: url(media/bgblue.jpg);
+}
+
+.project-wrapper {
+    
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 1.5%;
+    width: 97%;
+    column-gap: 100px;
+    grid-row-gap: 100px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+.project-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 21vw;
+  height: 25vh;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+figcaption {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 105%;
+    color: whitesmoke;    
+}
+
+figcaption:hover {
+        
+    text-decoration: underline;
+    color: darkgray;
+
+}
+
+.project-tile img {
+    
+    position: absolute;
+    width: 21vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.project-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+    
+/* ----------SOCIALS SECTION-----------*/
 
 
 
+#socials-section {
+    
+    position: absolute;
+    width: 99.99%;
+    height: 100vh;
+    top: 200%;
+    background-image: url(media/bgdark.jpg);
+}
+
+#together {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 50%;
+  left: 26%;
+  margin: 0 150 0 150;
+  font-size: 32px;
+}
+
+#sub2 {
+  position: absolute;
+  top: 55.5%;
+  left: 10%;
+  margin: 0 150 0 150;
+  color: teal;
+  font-family: monospace;
+  font-size: 24px; 
+}
+
+.social-wide {
+    
+    display: inline-flex;
+    position: relative;
+    height: 50px;
+    top: 70%;
+    color: teal;
+    margin-left: 38%;
+}
+
+.social-wide a {
+    
+    color: teal;
+}
+
+.social-wide a:hover {
+    
+    color: darkgray;
+    text-decoration: underline;
+    /* transform: translate(0px, -8px); 
+    Need to get this to shift down a few pixels for the effect.
+    */ 
+}
+
+.certs-wrapper {
+    
+    display: flex;
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    grid-gap: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+#my-certs {
+    
+  font-family: monospace;    
+  color: whitesmoke;
+  display: inline-block;
+  position: absolute;
+  top: -35px;
+}
+
+.certs-tile {
+
+  position: relative;
+  border: 2px solid white;
+  width: 21vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 4px 2px whitesmoke;
+}
+
+.certs-tile img {
+    
+    position: absolute;
+    width: 21vw;
+    height: 25vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.certs-tile img.resp1 {
+    
+    filter: invert(100%);
+}
 
 
+.certs-tile img.acg2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
 
 
+#bottom {
+    
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    right: 0;
+    top: 95%;
+    background-color: teal;
+}
 
+#copyright {
+    
+  position: absolute;
+  color: whitesmoke;
+  top: 96.5%;
+  left: 34.5%;
+  margin: 0 150 0 150;
+  font-size: 18px;
+}
 
-
-
-
-
-
-
-
-
-
-
+    
+}
+    
+    
+    
+    
