@@ -336,7 +336,7 @@ figcaption:hover {
   position: relative;
   top: -60%;
   width: 30%;
-  left: -38%;
+  left: -30%;
   margin: 0 auto;
   font-size: 1.5em;;
   z-index: 2;
@@ -608,7 +608,7 @@ figcaption:hover {
   display: inline-block;
   position: relative;
   top: -60%;
-  left: -48%;
+  left: -42%;
   width: 30%;
   margin: 0 auto;
   font-size: 1.5em;
@@ -626,8 +626,9 @@ figcaption:hover {
   display: inline-block;
   position: relative;
   top: -65.9%;
-  left: 64.5%;
+  left: 60.5%;
   width: 34%;
+  padding-right: 27px;
   margin: 0px auto;
   color: ghostwhite;
   font-size: 1.5em; 
@@ -758,7 +759,7 @@ figcaption:hover {
 #sub2 {
   position: absolute;
   top: 55.5%;
-  left: 25%;
+  left: 22%;
   margin: 0 150 0 150;
   color: teal;
   font-family: monospace;
@@ -879,8 +880,8 @@ figcaption:hover {
   
   display: inline-block;
   position: relative;
-  top: -60%;
-  left: 5%;
+  top: -70%;
+  left: 6%;
   width: 30%;
   margin: 0 auto;
   font-size: 1.5em;
@@ -899,7 +900,7 @@ figcaption:hover {
   position: relative;
   top: -65.9%;
   left: 62.5%;
-  width: 45%;
+  width: 37%;
   margin: 0px auto;
   color: ghostwhite;
   font-size: 1.5em; 
@@ -1030,7 +1031,7 @@ figcaption:hover {
 #sub2 {
   position: absolute;
   top: 55.5%;
-  left: 17%;
+  left: 15%;
   margin: 0 150 0 150;
   color: teal;
   font-family: monospace;
