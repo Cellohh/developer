@@ -1,94 +1,191 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" type="text/css" href="styles.css">
-      <title>Cello's Portfolio</title>
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cello Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-    <body>
+  <body>
 
-      <nav id="navbar" class="nav">
-        <ul>
-          <li><a href="#welcome-section">About</a></li> 
-          <li>|</li>
-          <li><a href="#projects">Work</a></li>
-          <li>|</li>
-          <li><a href="#socials-section">Contact</a></li>
-          </ul>
-      </nav>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#welcome-section">Welcome</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="http://www.marceltorres.com#contact" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
 
-      <section id="welcome-section">
-         
-         <img src="media/cello.png" alt="Cello">
-          <h1 id="hi">Hi, I'm <span class="nametitle">Marcel</span>, you can call me '<span class="nametitle">Cello</span>' </h1>
-          <br>
-          <subtitle>I'm a <span class="nametitle">Web</span> Developer, <br>I'm also the <span class="nametitle">Dev</span> you need.</subtitle>
-      </section>
-        
+    <!-- ================= WELCOME SECTION ================= -->
+    <section id="welcome-section">
+      <img src="media/cello.png" alt="Picture of me">
+      <h1 id="hi">Hi, my name is <span class="teal">Cello</span></h1>
+      <subtitle>I'm a <span class="teal">Web</span> Developer,
+I'm also the <span class="teal">Dev</span> you need.</subtitle>
+    </section>
 
-      <section class="projects-section" id="projects">
-        <h1 id="my-projects">My projects</h1>
-        
-        <div class="project-wrapper">
-                <div class="project-tile">
-                    <figure><a href="http://www.attackcancel.com" target="_blank"><img class="acg1" src="media/acg2.png"><img class="acg2" src="media/acg.png"><figcaption>eSports Website</figcaption></a></figure></div>
-            
-                <div class="project-tile">
-                    <figure><a href="https://cellohh.github.io/datacenter/" target="_blank"><img class="acg1" src="media/data2.png"><img class="acg2" src="media/data.png"><figcaption>Data Center Terminology Page</figcaption></a></figure></div>
-            
-                <div class="project-tile">
-                    <figure><a href="https://cellohh.github.io/the-last-bin/index.html" target="_blank"><img class="acg1" src="media/vg2.png"><img class="acg2" src="media/vg.png"><figcaption>The Last BIN - A Video Game Tournament</figcaption></a></figure></div>
-            
-            
-                <div class="project-tile">
-                    <figure><a href="https://cellohh.github.io/FCCpenguin/" target="_blank"><img class="acg1" src="media/pen2.png"><img class="acg2" src="media/pen.png"><figcaption>The FreeCodeCamp CSS Penguin</figcaption></a></figure></div>
-            
-            <div class="project-tile">
-                    <figure><a href="https://crossnetglobal.com/" target="_blank"><img class="acg1" src="media/cng2.png"><img class="acg2" src="media/cng1.png"><figcaption>CrossNet Global</figcaption></a></figure></div>
-            
-            
-             <div class="project-tile">
-                    <figure><a href="#" target="_blank"><img class="acg1" src="media/soon.png"><img class="acg2" src="media/coming.png"><figcaption>New project</figcaption></a></figure></div>
-        
-          </div>
-          
-      </section>
-        
-      <section id="socials-section">
-          
-         <div class="certs-wrapper">
-             
-             <h1 id="my-certs">My Certifications</h1>
-                          
-          <div class="certs-tile">
-                    <figure><a href="media/responsive.png" target="_blank"><img class="resp1" src="media/responsive.png"><img class="acg2" src="media/responsive.png"><figcaption>Responsive Web Design Certification
-                    </figcaption></a></figure></div>
-          <!--
-          <div class="certs-tile">
-                    <figure><a href="media/responsive.png" target="_blank"><img class="resp1" src="media/responsive.png"><img class="acg2" src="media/responsive.png"><figcaption>Responsive Web Design Certification
-                    </figcaption></a></figure></div>
-          -->
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="projects-section">
+      <h2>My Work</h2>
+      <div class="project-wrapper">
 
-             </div>
-          
-        <h1 id="together">Let's Work together...</h1>
-        <subtitle id="sub2">also you can't beat me at Smash Bros.</subtitle>
-          
-          <div class="social-wide"><img src="media/gh.png" alt="Git Hub Logo"><h3><a href="https://github.com/Cellohh" target="_blank">GitHub</a></h3></div>
-          
-        
-          
-          <div id="bottom"></div>
-          
-          <div id="copyright"><a href="http://marceltorres.com" target="_blank">© Marcel "Cello" Torres</a></div>
+        <div class="project-tile">
+          <a href="https://www.attackcancel.com" target="_blank">
+            <div class="project-image">
+              <img src="media/acg.png" alt="ACG website preview 1" class="default">
+              <img src="media/acg2.png" alt="ACG website preview 2" class="hover">
+            </div>
+            <p>eSports Organization</p>
+          </a>
+        </div>
 
-             
-      </section>
-        
+        <div class="project-tile">
+          <a href="https://crossnetglobal.com/" target="_blank">
+            <div class="project-image">
+              <img src="media/cng1.png" alt="Mission Landing page preview 1" class="default">
+              <img src="media/cng2.png" alt="Mission Landing page preview 2" class="hover">
+            </div>
+            <p>Mission Landing Page</p>
+          </a>
+        </div>
 
-     
-    </body>
+        <div class="project-tile">
+          <a href="https://kushosparty.com/" target="_blank">
+            <div class="project-image">
+              <img src="media/kush1.png" alt="Party Bus page preview 1" class="default">
+              <img src="media/kush2.png" alt="Party Bus page preview 2" class="hover">
+            </div>
+            <p>Party Bus Landing Webpage</p>
+          </a>
+        </div>
+
+        <div class="project-tile">
+          <a href="https://cellohh.github.io/FCCpenguin/" target="_blank">
+            <div class="project-image">
+              <img src="media/pen.png" alt="CSS Penguin Preview 1" class="default">
+              <img src="media/pen2.png" alt="CSS Penguin Preview 2" class="hover">
+            </div>
+            <p>The FreeCodeCamp CSS Penguin</p>
+          </a>
+        </div>
+
+          <div class="project-tile">
+          <a href="#" target="_blank">
+            <div class="project-image">
+              <img src="media/coming.png" alt="coming" class="default">
+              <img src="media/soon.png" alt="Soon" class="hover">
+            </div>
+            <p>Next Project Coming Soon!</p>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications" class="certifications-section">
+  <h2>Certifications</h2>
+  <div class="cert-wrapper">
+
+   <div class="cert-tile">
+  <a href="#" class="open-cert" data-cert="media/responsive.png">
+    <div class="cert-image">
+      <img src="media/responsive.png" alt="Certification 1 default" class="default">
+      <img src="media/responsive.png" alt="Certification 1 hover" class="hover">
+    </div>
+    <p>Responsive Web Design</p>
+  </a>
+</div>
+
+
+    <!-- <div class="cert-tile">
+  <a href="#" class="open-cert" data-cert="media/responsive.png">
+    <div class="cert-image">
+      <img src="media/responsive.png" alt="Certification 1 default" class="default">
+      <img src="media/responsive.png" alt="Certification 1 hover" class="hover">
+    </div>
+    <p>Responsive Web Design</p>
+  </a>
+</div>
+
+
+   <div class="cert-tile">
+  <a href="#" class="open-cert" data-cert="media/responsive.png">
+    <div class="cert-image">
+      <img src="media/responsive.png" alt="Certification 1 default" class="default">
+      <img src="media/responsive.png" alt="Certification 1 hover" class="hover">
+    </div>
+    <p>Responsive Web Design</p>
+  </a>
+</div> -->
+
+
+  </div>
+</section>
+
+
+    <!-- ================= SOCIALS ================= -->
+    <section id="socials">
+      <h2>Let's Work together...</h2>
+      <h3 class="teal">also you can't beat me at Smash Bros.</h3>
+      <br /><br /><br />
+      <div class="social-links">
+        <a href="https://github.com/Cellohh" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <p>&copy; 2025 <span class="teal">Cello</span> | Built with ❤️ & ☕</p>
+    </footer>
+
+    <!-- ================= MODAL ================= -->
+<div id="certModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="certModalImg" alt="Certification enlarged">
+  <div id="caption"></div>
+</div>
+
+<script>
+  const modal = document.getElementById("certModal");
+  const modalImg = document.getElementById("certModalImg");
+  const captionText = document.getElementById("caption");
+  const closeBtn = document.querySelector(".close");
+
+  // Open modal when cert clicked
+  document.querySelectorAll(".open-cert").forEach(link => {
+    link.addEventListener("click", function(e) {
+      e.preventDefault();
+      const imgSrc = this.getAttribute("data-cert");
+      const caption = this.querySelector("p").textContent;
+
+      modal.style.display = "block";
+      modalImg.src = imgSrc;
+      captionText.innerHTML = caption;
+    });
+  });
+
+  // Close modal
+  closeBtn.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // Close when clicking outside image
+  window.onclick = function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+
+
+  </body>
+
 </html>
